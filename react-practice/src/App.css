@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.Banner{
+    width: 40%;
+    background-image: url(./Images/smileys.jpg);
+    min-height: 550px;
+    background-size: cover;
+}
+.QuestionBox{
+    width: 58%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./Images/yellowbg.jpg);
+}
+.progress-custom{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.option-box{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.opt-val{
+    width: 45%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(225, 217, 189);
+}
+.button-box{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.buttons-custom{
+    width: 25%;
+    padding: 20px;
+}

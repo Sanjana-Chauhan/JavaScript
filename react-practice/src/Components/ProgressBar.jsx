@@ -8,7 +8,7 @@ function ProgressBar() {
       aria-valuemin="0"
       aria-valuemax="100"
     >
-      <div class="progress-bar bg-warning" style={{ width: "50%" }}></div>
+      <div className="progress-bar bg-warning" style={{ width: "50%" }}></div>
     </div>
   );
 }

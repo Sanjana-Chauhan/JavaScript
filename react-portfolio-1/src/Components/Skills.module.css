@@ -1,0 +1,70 @@
+@import "../var.css";
+
+.container{
+    margin: 50px 8%;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.skillsHeading{
+    width: 100%;
+    font-size: 50px;
+    padding: 40px 40px;
+    padding-bottom: 10px;
+}
+.SkillSubSec{
+    width: 50%;
+}
+.skillBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+.skill{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin:10px;
+    border-radius: 80px;
+}
+.skill img{
+    width: 100%;
+}
+
+
+.project{
+    width: 100%;
+    padding:  10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background:linear-gradient(90deg ,rgba(248, 246, 246, 0.9) -100% ,rgba(0,0,0,0.2));
+}
+.projectTitle{
+    width: 100%;
+    font-size: 20px;
+}
+.projInfo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.projInfo img{
+    width:15%;
+    margin-right: 15px;
+}
+.projectDesc{
+    font-weight: 100;
+}
+.ButtonLink{
+    text-decoration: none;
+    background-color:var(--color-primary) ;
+    color: var(--color-text);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}

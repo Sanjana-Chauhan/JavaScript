@@ -1,5 +1,5 @@
 import "../App.css"
-function Options({val}) {
-    return <div className="opt-val">{val}</div>;
+function Options({val,handleOnClick}) {
+    return <div className="opt-val" onClick={handleOnClick}>{val}</div>;
   }
   export default Options;

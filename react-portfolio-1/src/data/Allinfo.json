@@ -1,0 +1,20 @@
+[
+    {
+        "eduTitle":"Diploma In Computer Engg.(2023)",
+        "orgName" :"Govt. Polytechnic Paonta Sahib", 
+        "eduBoard" :"HPBoard",
+        "marks":"88%"
+    },
+    {
+        "eduTitle":"+2 Non-Medical (2021)",
+        "orgName" :"B.J.K.M. Senior Sec School", 
+        "eduBoard" :"HPBoard",
+        "marks":"97%"
+    },
+    {
+        "eduTitle":"10th (2019)",
+        "orgName" :"Hill View Public School", 
+        "eduBoard" :"HPBoard",
+        "marks":"95%"
+    }
+]

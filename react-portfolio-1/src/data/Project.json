@@ -1,0 +1,18 @@
+[
+    {
+        "ProjTitle": "Task Tracker App",
+        "ProjImg": "../../assets/to-do-list.png",
+        "ProjDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque"
+          
+    },
+    {
+        "ProjTitle": "Notes App",
+        "ProjImg": "../../assets/notesApp.png",
+        "ProjDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque"
+   },
+   {
+    "ProjTitle": "Travel Website",
+    "ProjImg": "../../assets/to-do-list.png",
+    "ProjDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque"
+}
+]

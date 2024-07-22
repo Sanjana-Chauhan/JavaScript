@@ -35,6 +35,9 @@
     border-radius: 5px;
     background-color: rgb(225, 217, 189);
 }
+.opt-val:hover{
+    background-color: rgb(159, 154, 134);
+}
 .button-box{
     width: 90%;
     display: flex;

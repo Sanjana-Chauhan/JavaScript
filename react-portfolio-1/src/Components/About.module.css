@@ -1,0 +1,42 @@
+@import "../var.css";
+
+.container{
+    margin: 50px 8%;
+    margin-bottom: 0;
+    background: rgba(3, 3, 41, 0.7);
+    z-index: 1;
+}
+
+.title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+}
+.educationBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.eduItems{
+    width: 50%;
+}
+.eduImg{
+    width: 40%;
+    margin-right:70px;
+}
+
+@media screen and (max-width:830px){
+    .container{
+        background: none;
+    }
+    .eduItems{
+        width: 100%;
+    }
+    .eduImg{
+        display: none;
+    }
+}

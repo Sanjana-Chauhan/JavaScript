@@ -9,8 +9,8 @@ function Projects() {
           <p className={styles.projectTitle}>{item.ProjTitle}</p>
           <div className={styles.projInfo}>
             <img src={item.ProjImg} className={styles.projImg}></img>
-            <p className="projectDesc">{item.ProjDesc}</p>
-            <a href="/" className={styles.ButtonLink}>
+            <p className={styles.projectDesc}>{item.ProjDesc}</p>
+            <a href="#" className={styles.ButtonLink}>
               View
             </a>
           </div>

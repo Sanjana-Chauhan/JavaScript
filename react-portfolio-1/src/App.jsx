@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
+import Connect from "./Components/Connect";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About/>
       <Skills/>
+      <Connect/>
     </div>
   );
 }

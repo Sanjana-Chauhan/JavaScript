@@ -2,17 +2,17 @@
     {
         "ProjTitle": "Task Tracker App",
         "ProjImg": "../../assets/to-do-list.png",
-        "ProjDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque"
+        "ProjDesc": "Developed a to-do list app using React. Implemented features such as task creation, editing and deletion. Utilized local storage for data persistence."
           
     },
     {
         "ProjTitle": "Notes App",
         "ProjImg": "../../assets/notesApp.png",
-        "ProjDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque"
+        "ProjDesc": "Developed an online learning platform using Android Studio, Java and SQLite. Created a platform with over 30 courses. Implemented features like video lectures, interactive quizzes, and user dashboards."
    },
    {
     "ProjTitle": "Travel Website",
-    "ProjImg": "../../assets/to-do-list.png",
-    "ProjDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque"
+    "ProjImg": "../../assets/travel.png",
+    "ProjDesc": "Developed a Himachal tourism website using React and Node.js. Integrated with Google Maps API for location-based search.Focused on user experience by providing detailed destination information, interactive maps, and customer reviews."
 }
 ]

@@ -1,5 +1,6 @@
 import styles from "./Skills.module.css";
 import Project from "../data/Project.json";
+import { getImgUrl } from "../utils";
 function Projects() {
   return (
     <div className={styles.SkillSubSec} id="Projects">
@@ -8,7 +9,7 @@ function Projects() {
         <div className={styles.project}>
           <p className={styles.projectTitle}>{item.ProjTitle}</p>
           <div className={styles.projInfo}>
-            <img src={item.ProjImg} className={styles.projImg}></img>
+            <img src={getImgUrl(item.ProjImg)} className={styles.projImg}></img>
             <p className={styles.projectDesc}>{item.ProjDesc}</p>
             <a href="#" className={styles.ButtonLink}>
               View

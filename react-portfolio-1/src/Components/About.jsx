@@ -1,6 +1,7 @@
 import styles from "./About.module.css";
 import EduItem from "./EduItem";
-import Allinfo from "../data/Allinfo.json"
+import Allinfo from "../data/Allinfo.json";
+import { getImgUrl } from "../utils";
 function About(){
    
     return <section className={styles.container} id="About">
@@ -13,7 +14,7 @@ function About(){
                 ))
                } 
             </div>
-            <img src="../../assets/education.png" className={styles.eduImg}></img>
+            <img src={getImgUrl("Education.png")} className={styles.eduImg}></img>
         </div>
        
     </section>

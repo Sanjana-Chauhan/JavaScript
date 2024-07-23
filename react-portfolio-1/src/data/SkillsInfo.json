@@ -1,50 +1,51 @@
+
 [
     {
-        "image": "../../assets/Skills/html.png",
+        "image": "Skills/html.png",
         "title": "HTML"
     },
     {
-        "image": "../../assets/Skills/css-3.png",
+        "image": "Skills/css-3.png",
         "title": "CSS"
     },
     {
-        "image": "../../assets/Skills/js.png",
+        "image": "Skills/js.png",
         "title": "javaScript"
     },
     {
-        "image": "../../assets/Skills/figma.png",
+        "image": "Skills/figma.png",
         "title": "Figma"
     },
     {
-        "image": "../../assets/Skills/git.png",
+        "image": "Skills/git.png",
         "title": "Git"
     },
     {
-        "image": "../../assets/Skills/github.png",
+        "image": "Skills/github.png",
         "title": "Git Hub"
     },
     {
-        "image": "../../assets/Skills/java.png",
+        "image": "Skills/java.png",
         "title": "Java"
     },
     {
-        "image": "../../assets/Skills/algorithms.png",
+        "image": "Skills/algorithms.png",
         "title": "DSA"
     },
     {
-        "image": "../../assets/Skills/python.png",
+        "image": "Skills/python.png",
         "title": "Python"
     },
     {
-        "image": "../../assets/Skills/c-.png",
+        "image": "Skills/c-.png",
         "title": "C++"
     },
     {
-        "image": "../../assets/Skills/react.png",
+        "image": "Skills/react.png",
         "title": "React"
     },
     {
-        "image": "../../assets/Skills/mysql.png",
+        "image": "Skills/mysql.png",
         "title": "MySql"
     }
 ]

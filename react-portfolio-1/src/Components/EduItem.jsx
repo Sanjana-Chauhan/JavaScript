@@ -1,8 +1,9 @@
 import styles from "./EduItem.module.css";
+import { getImgUrl } from "../utils";
 function EduItem(props) {
   return (
     <div className={styles.education}>
-      <img src="../../assets/eduBuilding.png" className={styles.eduIcons} />
+      <img src={getImgUrl("eduBuilding.png")} className={styles.eduIcons} />
       <div>
         <p className={styles.eduTitle}>{props.info.eduTitle}</p>
         <p className={styles.eduDesc}>{props.info.orgName}</p>

@@ -1,6 +1,7 @@
 import styles from "./Skills.module.css";
 import SkillsInfo from "../data/SkillsInfo.json";
 import Projects from "./Projects";
+import { getImgUrl } from "../utils";
 function Skills() {
   return (
     <section id="Skills" className={styles.container}>
@@ -11,7 +12,7 @@ function Skills() {
         <div className={styles.skillBox}>
           {SkillsInfo.map((item) => (
             <div className={styles.skill}>
-              <img src={item.image} />
+              <img src={getImgUrl(item.image)} />
               <p>{item.title}</p>
             </div>
           ))}

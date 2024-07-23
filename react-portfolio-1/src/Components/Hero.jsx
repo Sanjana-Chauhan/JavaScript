@@ -1,7 +1,8 @@
 import styles from "./Hero.module.css";
+import { getImgUrl } from "../utils";
 function Hero(){
     return<section className={styles.container}>
-        <img src="../../assets/heroImage.png" className={styles.heroImg}></img>
+        <img src={getImgUrl("heroImage.png")} className={styles.heroImg}></img>
         <div className={styles.content}>
             <h1 className={styles.title}>Hii I am Sanjana</h1>
             <p className={styles.desc}>I am a B.Tech CSE student at CGC Jhanjeri.I love programmimg and DSA.To Contact me click the button below</p>

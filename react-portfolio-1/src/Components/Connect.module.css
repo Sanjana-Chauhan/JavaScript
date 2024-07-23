@@ -2,6 +2,7 @@
 
 footer{
     display: flex;
+    width: 100%;
     margin-top: 20px;
     padding: 20px;
     background-color: var(--color-secondary);
@@ -48,4 +49,18 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width:830px) {
+        footer{
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .footerContent{
+            width: 100%;
+        }
+        .linkBox{
+            width: 100%;
+            justify-content: flex-start;
+        }
 }

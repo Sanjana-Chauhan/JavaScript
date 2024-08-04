@@ -33,6 +33,9 @@
     .container{
         background: none;
     }
+    .educationBox{
+        padding-left: 10px;
+    }
     .eduItems{
         width: 100%;
     }

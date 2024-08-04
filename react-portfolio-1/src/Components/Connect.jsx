@@ -1,7 +1,6 @@
 import styles from "./Connect.module.css"
 import links from "../data/Links.json";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 function Connect(){

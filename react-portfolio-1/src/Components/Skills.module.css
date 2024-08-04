@@ -42,7 +42,7 @@
     padding:  10px 20px;
     border-radius: 10px;
     margin-bottom: 10px;
-    background:linear-gradient(90deg ,rgba(248, 246, 246, 0.9) -100% ,rgba(0,0,0,0.2));
+    background:linear-gradient(90deg ,rgba(41, 67, 200, 0.9) -100% ,rgba(0, 0, 0, 0.2));
 }
 .projectTitle{
     width: 100%;
@@ -73,5 +73,8 @@
 @media screen and (max-width:830px){
     .SkillSubSec{
         width: 100%;
+    }
+    .skillBox p{
+        font-size: 13px;
     }
 }

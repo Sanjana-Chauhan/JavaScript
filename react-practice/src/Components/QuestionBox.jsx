@@ -3,74 +3,85 @@ import "../App.css";
 import { useState } from "react";
 import ProgressBar from "./ProgressBar";
 import Options from "./Options";
-import Buttons from "./Buttons";
 import QuestionTitle from "./QuestionTitle";
-
+import Buttons from "./Buttons"
 function QuestionBox() {
 
   let [quesNo,setQuesNo]=useState(0);
   let desc = [
     {
-      ques: "Q1. This is Question title first",
-      options: [" Option 1", " Option 2", " Option 3", " Option 4"],
-      ans: "Option 1",
+      ques: "Q1.What is the capital of India?",
+      options: ["Mumbai", "New Delhi", "Chandigarh", "Kolkata"],
+      ans: 1,
     },
     {
-      ques: "Q2. This is Question title second",
-      options: [" Option S", " Option 2S", " Option 3S", " Option 4S"],
-      ans: "Option 1",
+      ques: "Q2. How many colours are there in rainbow?",
+      options: ["Five 5"," Nine 9", "Seven 7",  "Six 6"],
+      ans: 2,
     },
     {
-      ques: "Q3. This is Question title third",
-      options: [" Option T1", " OptionT 2", " Option t3", " Optiont 4"],
-      ans: "Option 1",
+      ques: "Q3.Which of the following is not an Object Oriented Programming Language?",
+      options: ["C", "C++", " Java", "Python"],
+      ans: 0,
     },
     {
-      ques: "Q4. This is Question title fourth",
-      options: [" Option F1", " Option F2", " Option F3", " Optiont F4"],
-      ans: "Option 1",
+      ques: "Q4.Which month has less than 30 days?",
+      options: [" May", " January", "June", "February"],
+      ans: 3,
     },
   ];
 
   function handleNextOnClick(){
-      console.log("hello");
-      if(quesNo==desc.length-1){
-        setQuesNo(0);
-      }
-      else{
-        setQuesNo(quesNo+1);
-      }
-      
-  }
-  function handleBackOnClick(){
-    console.log("Back");
-    if(quesNo==0){
+    if(quesNo==desc.length-1){
       setQuesNo(0);
     }
     else{
-      setQuesNo(quesNo-1);
+      setQuesNo(quesNo+1);
+    }    
+}
+
+
+function handleBackOnClick(){
+  if(quesNo==0){
+    setQuesNo(0);
+  }
+  else{
+    setQuesNo(quesNo-1);
+  }
+  
+}
+
+
+ function handleOptionsOnClick(e){
+    let answerIndex=desc[quesNo].ans
+    if(e.target.innerText==desc[quesNo].options[answerIndex]){
+      e.target.classList.add("correctAns")
+      setTimeout( handleNextOnClick,500)
+    }
+    else{
+      e.target.classList.add("WrongAns")
     }
     
-}
-function handleOptionsOnClick(e){
-    console.log(e.target.innerText)
+   
 }
   return (
     <div className="QuestionBox">
-      <ProgressBar></ProgressBar>
+
+      <ProgressBar progress={(100/(desc.length))*(quesNo+1)}></ProgressBar>
 
       <QuestionTitle ques={desc[quesNo].ques}></QuestionTitle>
 
       <div className="option-box">
-        {desc[1].options.map((val) => (
-          <Options val={val} key={val} handleOptionsOnClick={(e) => handleOptionsOnClick(e)}></Options>
+        {desc[quesNo].options.map((val) => (
+          <Options val={val} key={val} handleOnClick={(e) => handleOptionsOnClick(e)}></Options>
         ))}
       </div>
 
       <div className="button-box">
         <Buttons btnTxt="Back" handleOnClick={handleBackOnClick}></Buttons>
-        <Buttons btnTxt="Next"  handleOnClick={handleNextOnClick}></Buttons>
-      </div>
+        <Buttons id="Next" btnTxt={quesNo==3?"Submit":"Next"}  handleOnClick={handleNextOnClick}></Buttons>
+     </div>
+
     </div>
   );
 }

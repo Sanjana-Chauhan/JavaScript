@@ -15,9 +15,5 @@ fetch(url)
     });
 }).catch((e)=>{
     console.log(e)
-    container.innerHTML=`Cant connect ti internet at the moment`;
+    container.innerHTML=`<b>Can't connect to internet at the moment...<br>${e}`;
 });
-
-
-// quote.innerText=`${data[0].text}`;
-//     author.innerText=`${data[0].author}`
